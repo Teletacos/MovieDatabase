@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/general.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/header.css') }}">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="header">
+            <div class="header-content">
+            <div class="header-start">
+                <a class="imdb-link" href="/">
+                    <img class="imdb-button-image" src="{{ url_for('static', filename='images/wmdb.png') }}"> 
+                </a>
+            </div>
+            <div class="header-middle">
+                <form class="search-container">
+                    <input class="search-input" type="search" placeholder="Search" name="search">
+                    <button class="search-button" type="submit">
+                        <img class="search-button-icon" src="{{ url_for('static', filename='images/icons/search.svg') }}">
+                    </button>
+                </form>
+            </div>
+            <div class="header-end"></div>
+            </div>
+        </div>
+        
+        <div class="page-container">
+            <p class="current-view">{{current_view}}</p>      
+            <div class="movie-grid">
+                {% for movie in movies %}
+                    <a class="movie-link" href="/movie/{{movie.title}}">
+                        <div class="movie-container">
+                        <img class="movie-image" src="{{ url_for('static', filename=movie.image_path) }}">
+                        <p class="movie-rating">
+                            <img class="movie-rating-icon" src="{{ url_for('static', filename='images/icons/star.svg') }}">
+                            {{movie.rating}}
+                        </p>
+                        <p class="movie-title">{{movie.title}}</p>
+                    </div>
+                    </a>
+                {% endfor %}
+            </div>
+        </div>  
+    </body>
+</html>

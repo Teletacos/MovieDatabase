@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/general.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/movie.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/header.css') }}">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="header">
+            <div class="header-content">
+            <div class="header-start">
+                <a class="imdb-link" href="/">
+                    <img class="imdb-button-image" src="{{ url_for('static', filename='images/wmdb.png') }}"> 
+                </a>
+            </div>
+            <div class="header-middle">
+                <div class="search-container">
+                    <input class="search-input" type="search" placeholder="Search">
+                    <button class="search-button">
+                        <img class="search-button-icon" src="{{ url_for('static', filename='images/icons/search.svg') }}">
+                    </button>
+                </div>
+            </div>
+            <div class="header-end"></div>
+            </div>
+        </div>
+
+        <div class="page-container">
+            <div class="movie">
+                <img class="movie-image" src="{{ url_for('static', filename=movie.image_path)}}">
+                <div class="side-info">
+                    <p class="movie-title">{{movie.title}}</p>
+                    <div class="under-title">
+                        <p class="movie-year">{{movie.year}}</p>
+                        <p class="movie-rating">
+                            <img class="movie-rating-icon" src="{{ url_for('static', filename='images/icons/star.svg') }}">
+                            {{movie.rating}}
+                        </p>
+                    </div>
+                    
+                    <div class="info-container">
+                        <p class="role">Genre</p>
+                        {% for genre in movie.genre %}
+                            <a href="/genre/{{genre}}" class="genre">{{genre}}</a>
+                        {% endfor %}
+                    </div>
+                    <div class="info-container">
+                        <p class="role">Director</p>
+                        <p class="name">{{movie.director}}</p>
+                    </div>
+                    <div class="info-container">
+                        <p class="role">Cast</p>
+                        {% for name in movie.cast %}
+                            <p class="name">{{name}}</p>
+                            {% if not loop.last %}
+                                <img class="name-divider" src="{{ url_for('static', filename='images/icons/circle.svg') }}">
+                            {% endif %}
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

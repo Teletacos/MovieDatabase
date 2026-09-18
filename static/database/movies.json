@@ -1,0 +1,1154 @@
+[
+    {
+        "title": "A Silent Voice",
+        "director": "Naoko Yamada",
+        "cast": [
+            "Miyu Irino",
+            "Saori Hayami",
+            "Aoi Y\u016bki"
+        ],
+        "year": 2016,
+        "genre": [
+            "Animation",
+            "Drama",
+            "Romance"
+        ],
+        "rating": 8.2
+    },
+    {
+        "title": "Aftersun",
+        "director": "Charlotte Wells",
+        "cast": [
+            "Paul Mescal",
+            "Frankie Corio",
+            "Celeste Dring"
+        ],
+        "year": 2022,
+        "genre": [
+            "Drama"
+        ],
+        "rating": 7.6
+    },
+    {
+        "title": "Airplane!",
+        "director": "Jim Abrahams, David Zucker, Jerry Zucker",
+        "cast": [
+            "Robert Hays",
+            "Julie Hagerty",
+            "Leslie Nielsen"
+        ],
+        "year": 1980,
+        "genre": [
+            "Comedy"
+        ],
+        "rating": 7.7
+    },
+    {
+        "title": "Alien",
+        "director": "Ridley Scott",
+        "cast": [
+            "Sigourney Weaver",
+            "Tom Skerritt",
+            "John Hurt"
+        ],
+        "year": 1979,
+        "genre": [
+            "Horror",
+            "Sci-Fi"
+        ],
+        "rating": 8.5
+    },
+    {
+        "title": "Borat Subsequent Moviefilm",
+        "director": "Jason Woliner",
+        "cast": [
+            "Sacha Baron Cohen",
+            "Maria Bakalova",
+            "Tom Hanks"
+        ],
+        "year": 2020,
+        "genre": [
+            "Comedy"
+        ],
+        "rating": 6.6
+    },
+    {
+        "title": "Boy",
+        "director": "Taika Waititi",
+        "cast": [
+            "Te Aho Eketone-Whitu",
+            "James Rolleston",
+            "Moerangi Tihore"
+        ],
+        "year": 2010,
+        "genre": [
+            "Comedy",
+            "Drama"
+        ],
+        "rating": 7.5
+    },
+    {
+        "title": "Brick",
+        "director": "Rian Johnson",
+        "cast": [
+            "Joseph Gordon-Levitt",
+            "Lukas Haas",
+            "Emilie de Ravin"
+        ],
+        "year": 2005,
+        "genre": [
+            "Crime",
+            "Mystery"
+        ],
+        "rating": 7.1
+    },
+    {
+        "title": "Cars",
+        "director": "John Lasseter (co-directed by Joe Ranft)",
+        "cast": [
+            "Owen Wilson",
+            "Paul Newman",
+            "Bonnie Hunt"
+        ],
+        "year": 2006,
+        "genre": [
+            "Animated",
+            "Sports",
+            "Comedy"
+        ],
+        "rating": 7.3
+    },
+    {
+        "title": "Cars 2",
+        "director": "John Lasseter, Brad Lewis",
+        "cast": [
+            "Owen Wilson",
+            "Larry the Cable Guy",
+            "Michael Caine"
+        ],
+        "year": 2011,
+        "genre": [
+            "Animated",
+            "Comedy",
+            "Adventure"
+        ],
+        "rating": 6.2
+    },
+    {
+        "title": "Casablanca",
+        "director": "Michael Curtiz",
+        "cast": [
+            "Humphrey Bogart",
+            "Ingrid Bergman",
+            "Paul Henried"
+        ],
+        "year": 1942,
+        "genre": [
+            "Drama",
+            "Romance",
+            "War"
+        ],
+        "rating": 8.5
+    },
+    {
+        "title": "Cha Cha Real Smooth",
+        "director": "Cooper Raiff",
+        "cast": [
+            "Cooper Raiff",
+            "Dakota Johnson",
+            "Vanessa Burghardt"
+        ],
+        "year": 2022,
+        "genre": [
+            "Comedy",
+            "Drama"
+        ],
+        "rating": 7.3
+    },
+    {
+        "title": "Chainsaw Man \u2013 The Movie: Reze Arc",
+        "director": "Tatsuya Yoshihara",
+        "cast": [
+            "Kikunosuke Toya",
+            "Tomori Kusunoki",
+            "Shogo Sakata"
+        ],
+        "year": 2024,
+        "genre": [
+            "Animation",
+            "Action",
+            "Fantasy"
+        ],
+        "rating": 8.3
+    },
+    {
+        "title": "Cl\u00e9o de 5 a 7",
+        "director": "Agn\u00e8s Varda",
+        "cast": [
+            "Corinne Marchand",
+            "Dominique Davray",
+            "Antoine Bourseiller"
+        ],
+        "year": 1962,
+        "genre": [
+            "Comedy",
+            "Drama"
+        ],
+        "rating": 7.8
+    },
+    {
+        "title": "Cold Weather",
+        "director": "Aaron Katz",
+        "cast": [
+            "Cris Lankenau",
+            "Trieste Kelly Dunn",
+            "Raul Bocanegra"
+        ],
+        "year": 2010,
+        "genre": [
+            "Mystery",
+            "Indie"
+        ],
+        "rating": 6.1
+    },
+    {
+        "title": "Cunk on Earth",
+        "director": "Christian Watt",
+        "cast": [
+            "Diane Morgan",
+            "Jim Al-Khalili",
+            "Shirley J. Thompson"
+        ],
+        "year": 2022,
+        "genre": [
+            "Comedy",
+            "Documentary"
+        ],
+        "rating": 8.1
+    },
+    {
+        "title": "Django Unchained",
+        "director": "Quentin Tarantino",
+        "cast": [
+            "Jamie Foxx",
+            "Christoph Waltz",
+            "Leonardo DiCaprio"
+        ],
+        "year": 2012,
+        "genre": [
+            "Drama",
+            "Western"
+        ],
+        "rating": 8.5
+    },
+    {
+        "title": "Doctor Strange",
+        "director": "Scott Derrickson",
+        "cast": [
+            "Benedict Cumberbatch",
+            "Chiwetel Ejiofor",
+            "Rachel McAdams"
+        ],
+        "year": 2016,
+        "genre": [
+            "Action",
+            "Adventure",
+            "Fantasy"
+        ],
+        "rating": 7.5
+    },
+    {
+        "title": "Donnie Darko",
+        "director": "Richard Kelly",
+        "cast": [
+            "Jake Gyllenhaal",
+            "Jena Malone",
+            "Drew Barrymore"
+        ],
+        "year": 2001,
+        "genre": [
+            "Sci-Fi",
+            "Psychological Thriller"
+        ],
+        "rating": 7.8
+    },
+    {
+        "title": "Drive",
+        "director": "Nicolas Winding Refn",
+        "cast": [
+            "Ryan Gosling",
+            "Carey Mulligan",
+            "Albert Brooks"
+        ],
+        "year": 2011,
+        "genre": [
+            "Crime",
+            "Drama"
+        ],
+        "rating": 7.8
+    },
+    {
+        "title": "Eternal Sunshine of the Spotless Mind",
+        "director": "Michel Gondry",
+        "cast": [
+            "Jim Carrey",
+            "Kate Winslet",
+            "Kirsten Dunst"
+        ],
+        "year": 2004,
+        "genre": [
+            "Romantic",
+            "Sci-Fi"
+        ],
+        "rating": 8.3
+    },
+    {
+        "title": "Everything Everywhere All at Once",
+        "director": "Daniel Kwan, Daniel Scheinert",
+        "cast": [
+            "Michelle Yeoh",
+            "Stephanie Hsu",
+            "Ke Huy Quan"
+        ],
+        "year": 2022,
+        "genre": [
+            "Action",
+            "Adventure",
+            "Comedy"
+        ],
+        "rating": 7.7
+    },
+    {
+        "title": "First Cow",
+        "director": "Kelly Reichardt",
+        "cast": [
+            "John Magaro",
+            "Orion Lee",
+            "Rene Auberjonois"
+        ],
+        "year": 2019,
+        "genre": [
+            "Drama",
+            "Western"
+        ],
+        "rating": 7.1
+    },
+    {
+        "title": "Frankenstein",
+        "director": "Guillermo del Toro",
+        "cast": [
+            "Oscar Isaac",
+            "Jacob Elordi",
+            "Mia Goth"
+        ],
+        "year": 2025,
+        "genre": [
+            "Drama",
+            "Horror",
+            "Sci-Fi"
+        ],
+        "rating": 7.3
+    },
+    {
+        "title": "Get Out",
+        "director": "Jordan Peele",
+        "cast": [
+            "Daniel Kaluuya",
+            "Allison Williams",
+            "Catherine Keener"
+        ],
+        "year": 2017,
+        "genre": [
+            "Horror",
+            "Thriller"
+        ],
+        "rating": 7.7
+    },
+    {
+        "title": "Gimme the Loot",
+        "director": "Adam Leon",
+        "cast": [
+            "Tashiana Washington",
+            "Ty Hickson",
+            "Jonathan Marc Sherman"
+        ],
+        "year": 2012,
+        "genre": [
+            "Comedy",
+            "Drama"
+        ],
+        "rating": 6.6
+    },
+    {
+        "title": "G\u00f6ta kanal eller Vem drog ur proppen?",
+        "director": "Hans Iveberg",
+        "cast": [
+            "Janne 'Loffe' Carlsson",
+            "Kim Anderzon",
+            "Stig Ossian Ericson"
+        ],
+        "year": 1981,
+        "genre": [
+            "Comedy"
+        ],
+        "rating": 5.8
+    },
+    {
+        "title": "Hamnet",
+        "director": "Chlo\u00e9 Zhao",
+        "cast": [
+            "Paul Mescal",
+            "Jessie Buckley",
+            "Joe Alwyn"
+        ],
+        "year": 2025,
+        "genre": [
+            "Drama",
+            "History"
+        ],
+        "rating": 7.8
+    },
+    {
+        "title": "Her",
+        "director": "Spike Jonze",
+        "cast": [
+            "Joaquin Phoenix",
+            "Scarlett Johansson",
+            "Amy Adams"
+        ],
+        "year": 2013,
+        "genre": [
+            "Romance",
+            "Sci-Fi"
+        ],
+        "rating": 8.0
+    },
+    {
+        "title": "I Will Follow",
+        "director": "Ava DuVernay",
+        "cast": [
+            "Salli Richardson-Whitfield",
+            "Monique Gabriela Curnen",
+            "Bradford Tate IV"
+        ],
+        "year": 2010,
+        "genre": [
+            "Drama"
+        ],
+        "rating": 6.1
+    },
+    {
+        "title": "In the Mood for Love",
+        "director": "Wong Kar-Wai",
+        "cast": [
+            "Maggie Cheung",
+            "Tony Leung Chiu-wai",
+            "Ping-Lam Siu"
+        ],
+        "year": 2000,
+        "genre": [
+            "Romance",
+            "Drama"
+        ],
+        "rating": 8.0
+    },
+    {
+        "title": "Inception",
+        "director": "Christopher Nolan",
+        "cast": [
+            "Leonardo DiCaprio",
+            "Joseph Gordon-Levitt",
+            "Ellen Page"
+        ],
+        "year": 2010,
+        "genre": [
+            "Sci-Fi",
+            "Thriller"
+        ],
+        "rating": 8.8
+    },
+    {
+        "title": "Interstellar",
+        "director": "Christopher Nolan",
+        "cast": [
+            "Matthew McConaughey",
+            "Anne Hathaway",
+            "Jessica Chastain"
+        ],
+        "year": 2014,
+        "genre": [
+            "Sci-Fi",
+            "Drama",
+            "Adventure"
+        ],
+        "rating": 8.7
+    },
+    {
+        "title": "Jurassic World",
+        "director": "Colin Trevorrow",
+        "cast": [
+            "Chris Pratt",
+            "Bryce Dallas Howard",
+            "Ty Simpkins"
+        ],
+        "year": 2015,
+        "genre": [
+            "Action",
+            "Adventure",
+            "Sci-Fi"
+        ],
+        "rating": 6.9
+    },
+    {
+        "title": "Kill Bill: Vol. 1",
+        "director": "Quentin Tarantino",
+        "cast": [
+            "Uma Thurman",
+            "Lucy Liu",
+            "Vivica A. Fox"
+        ],
+        "year": 2003,
+        "genre": [
+            "Action",
+            "Crime",
+            "Thriller"
+        ],
+        "rating": 8.2
+    },
+    {
+        "title": "Knives Out",
+        "director": "Rian Johnson",
+        "cast": [
+            "Daniel Craig",
+            "Ana de Armas",
+            "Chris Evans"
+        ],
+        "year": 2019,
+        "genre": [
+            "Comedy",
+            "Crime",
+            "Mystery"
+        ],
+        "rating": 7.9
+    },
+    {
+        "title": "Kuolleet lehdet",
+        "director": "Aki Kaurism\u00e4ki",
+        "cast": [
+            "Alma P\u00f6ysti",
+            "Jussi Vatanen",
+            "Janne Hyyti\u00e4inen"
+        ],
+        "year": 2023,
+        "genre": [
+            "Comedy",
+            "Drama"
+        ],
+        "rating": 7.6
+    },
+    {
+        "title": "Lady Bird",
+        "director": "Greta Gerwig",
+        "cast": [
+            "Saoirse Ronan",
+            "Laurie Metcalf",
+            "Tracy Letts"
+        ],
+        "year": 2017,
+        "genre": [
+            "Drama",
+            "Comedy"
+        ],
+        "rating": 7.4
+    },
+    {
+        "title": "Little Miss Sunshine",
+        "director": "Jonathan Dayton, Valerie Faris",
+        "cast": [
+            "Abigail Breslin",
+            "Steve Carell",
+            "Toni Collette"
+        ],
+        "year": 2006,
+        "genre": [
+            "Comedy",
+            "Drama"
+        ],
+        "rating": 7.8
+    },
+    {
+        "title": "Lucky",
+        "director": "John Carroll Lynch",
+        "cast": [
+            "Harry Dean Stanton",
+            "David Lynch",
+            "Yvonne Huff Lee"
+        ],
+        "year": 2017,
+        "genre": [
+            "Comedy",
+            "Drama",
+            "Western"
+        ],
+        "rating": 7.4
+    },
+    {
+        "title": "Mad Max: Fury Road",
+        "director": "George Miller",
+        "cast": [
+            "Tom Hardy",
+            "Charlize Theron",
+            "Nicholas Hoult"
+        ],
+        "year": 2015,
+        "genre": [
+            "Action",
+            "Adventure"
+        ],
+        "rating": 8.1
+    },
+    {
+        "title": "Mean Girls",
+        "director": "Mark Waters",
+        "cast": [
+            "Lindsay Lohan",
+            "Jonathan Bennett",
+            "Rachel McAdams"
+        ],
+        "year": 2004,
+        "genre": [
+            "Comedy"
+        ],
+        "rating": 7.1
+    },
+    {
+        "title": "Mission: Impossible \u2013 The Final Reckoning",
+        "director": "Christopher McQuarrie",
+        "cast": [
+            "Tom Cruise",
+            "Hayley Atwell",
+            "Ving Rhames"
+        ],
+        "year": 2025,
+        "genre": [
+            "Action",
+            "Thriller"
+        ],
+        "rating": 7.1
+    },
+    {
+        "title": "Monty Python's Life of Brian",
+        "director": "Terry Jones",
+        "cast": [
+            "Graham Chapman",
+            "John Cleese",
+            "Terry Gilliam"
+        ],
+        "year": 1979,
+        "genre": [
+            "Comedy"
+        ],
+        "rating": 8.0
+    },
+    {
+        "title": "Moonlight",
+        "director": "Barry Jenkins",
+        "cast": [
+            "Mahershala Ali",
+            "Trevante Rhodes",
+            "Naomie Harris"
+        ],
+        "year": 2016,
+        "genre": [
+            "Drama"
+        ],
+        "rating": 7.4
+    },
+    {
+        "title": "Nosferatu",
+        "director": "F.W. Murnau",
+        "cast": [
+            "Max Schreck",
+            "Gustav von Wangenheim",
+            "Greta Schr\u00f6der"
+        ],
+        "year": 1922,
+        "genre": [
+            "Fantasy",
+            "Horror"
+        ],
+        "rating": 7.8
+    },
+    {
+        "title": "Oppenheimer",
+        "director": "Christopher Nolan",
+        "cast": [
+            "Cillian Murphy",
+            "Emily Blunt",
+            "Matt Damon"
+        ],
+        "year": 2023,
+        "genre": [
+            "Biography",
+            "Drama",
+            "History"
+        ],
+        "rating": 8.2
+    },
+    {
+        "title": "Pan's Labyrinth",
+        "director": "Guillermo del Toro",
+        "cast": [
+            "Ivana Baquero",
+            "Sergi L\u00f3pez",
+            "Maribel Verd\u00fa"
+        ],
+        "year": 2006,
+        "genre": [
+            "Fantasy",
+            "Drama"
+        ],
+        "rating": 8.2
+    },
+    {
+        "title": "Parasite",
+        "director": "Bong Joon-ho",
+        "cast": [
+            "Song Kang-ho",
+            "Lee Sun-kyun",
+            "Cho Yeo-jeong"
+        ],
+        "year": 2019,
+        "genre": [
+            "Thriller",
+            "Drama"
+        ],
+        "rating": 8.5
+    },
+    {
+        "title": "Plan 9 from Outer Space",
+        "director": "Edward D. Wood Jr.",
+        "cast": [
+            "Gregory Walcott",
+            "Bela Lugosi",
+            "Mona McKinnon"
+        ],
+        "year": 1957,
+        "genre": [
+            "Horror",
+            "Sci-Fi"
+        ],
+        "rating": 4.0
+    },
+    {
+        "title": "Primer",
+        "director": "Shane Carruth",
+        "cast": [
+            "Shane Carruth",
+            "David Sullivan",
+            "Casey Gooden"
+        ],
+        "year": 2004,
+        "genre": [
+            "Sci-Fi",
+            "Mystery"
+        ],
+        "rating": 6.7
+    },
+    {
+        "title": "Project Hail Mary",
+        "director": "Phil Lord, Christopher Miller",
+        "cast": [
+            "Ryan Gosling",
+            "Sandra H\u00fcller",
+            "Milana Vayntrub"
+        ],
+        "year": 2026,
+        "genre": [
+            "Sci-Fi",
+            "Adventure"
+        ],
+        "rating": 8.1
+    },
+    {
+        "title": "Rain Man",
+        "director": "Barry Levinson",
+        "cast": [
+            "Dustin Hoffman",
+            "Tom Cruise",
+            "Valeria Golino"
+        ],
+        "year": 1988,
+        "genre": [
+            "Drama"
+        ],
+        "rating": 8.0
+    },
+    {
+        "title": "Scott Pilgrim vs. the World",
+        "director": "Edgar Wright",
+        "cast": [
+            "Michael Cera",
+            "Mary Elizabeth Winstead",
+            "Kieran Culkin"
+        ],
+        "year": 2010,
+        "genre": [
+            "Action",
+            "Comedy",
+            "Romance"
+        ],
+        "rating": 7.5
+    },
+    {
+        "title": "Shithouse",
+        "director": "Cooper Raiff",
+        "cast": [
+            "Cooper Raiff",
+            "Dylan Gelula",
+            "Nick Lieberman"
+        ],
+        "year": 2020,
+        "genre": [
+            "Comedy",
+            "Drama"
+        ],
+        "rating": 6.8
+    },
+    {
+        "title": "Slacker",
+        "director": "Richard Linklater",
+        "cast": [
+            "Richard Linklater",
+            "Kim Krizan",
+            "Mark James"
+        ],
+        "year": 1990,
+        "genre": [
+            "Comedy",
+            "Drama"
+        ],
+        "rating": 7.3
+    },
+    {
+        "title": "Slumdog Millionaire",
+        "director": "Danny Boyle",
+        "cast": [
+            "Dev Patel",
+            "Freida Pinto",
+            "Anil Kapoor"
+        ],
+        "year": 2008,
+        "genre": [
+            "Drama",
+            "Romance"
+        ],
+        "rating": 8.0
+    },
+    {
+        "title": "Spirited Away",
+        "director": "Hayao Miyazaki",
+        "cast": [
+            "Rumi Hiiragi",
+            "Miyu Irino",
+            "Mari Natsuki"
+        ],
+        "year": 2001,
+        "genre": [
+            "Animation",
+            "Fantasy"
+        ],
+        "rating": 8.6
+    },
+    {
+        "title": "Star Wars: Episode III - Revenge of the Sith",
+        "director": "George Lucas",
+        "cast": [
+            "Ewan McGregor",
+            "Natalie Portman",
+            "Hayden Christensen"
+        ],
+        "year": 2005,
+        "genre": [
+            "Action",
+            "Adventure",
+            "Sci-Fi"
+        ],
+        "rating": 7.6
+    },
+    {
+        "title": "S\u00e4llskapsresan",
+        "director": "Lasse \u00c5berg, Peter Hald",
+        "cast": [
+            "Lasse \u00c5berg",
+            "Jon Skolmen",
+            "Lottie Ejebrant"
+        ],
+        "year": 1980,
+        "genre": [
+            "Comedy"
+        ],
+        "rating": 6.9
+    },
+    {
+        "title": "The Dark Knight",
+        "director": "Christopher Nolan",
+        "cast": [
+            "Christian Bale",
+            "Heath Ledger",
+            "Aaron Eckhart"
+        ],
+        "year": 2008,
+        "genre": [
+            "Action",
+            "Crime",
+            "Drama"
+        ],
+        "rating": 9.1
+    },
+    {
+        "title": "The Grand Budapest Hotel",
+        "director": "Wes Anderson",
+        "cast": [
+            "Ralph Fiennes",
+            "Tony Revolori",
+            "Saoirse Ronan"
+        ],
+        "year": 2014,
+        "genre": [
+            "Comedy",
+            "Drama"
+        ],
+        "rating": 8.1
+    },
+    {
+        "title": "The Hobbit: An Unexpected Journey",
+        "director": "Peter Jackson",
+        "cast": [
+            "Ian McKellen",
+            "Martin Freeman",
+            "Richard Armitage"
+        ],
+        "year": 2012,
+        "genre": [
+            "Adventure",
+            "Fantasy"
+        ],
+        "rating": 7.8
+    },
+    {
+        "title": "The Hunt for Red October",
+        "director": "John McTiernan",
+        "cast": [
+            "Sean Connery",
+            "Alec Baldwin",
+            "Scott Glenn"
+        ],
+        "year": 1990,
+        "genre": [
+            "Mystery & Thriller",
+            "Action",
+            "Adventure"
+        ],
+        "rating": 7.5
+    },
+    {
+        "title": "The Italian Job",
+        "director": "Peter Collinson",
+        "cast": [
+            "Michael Caine",
+            "No\u00ebl Coward",
+            "Beno\u00eet Ferreux"
+        ],
+        "year": 1969,
+        "genre": [
+            "Action",
+            "Comedy",
+            "Crime"
+        ],
+        "rating": 7.2
+    },
+    {
+        "title": "The King's Speech",
+        "director": "Tom Hooper",
+        "cast": [
+            "Colin Firth",
+            "Geoffrey Rush",
+            "Helena Bonham Carter"
+        ],
+        "year": 2010,
+        "genre": [
+            "Biography",
+            "Drama",
+            "History"
+        ],
+        "rating": 8.0
+    },
+    {
+        "title": "The Lost Bus",
+        "director": "Paul Greengrass",
+        "cast": [
+            "Matthew McConaughey",
+            "America Ferrera",
+            "Ashlie Atkinson"
+        ],
+        "year": 2025,
+        "genre": [
+            "Drama"
+        ],
+        "rating": 6.5
+    },
+    {
+        "title": "The Odyssey",
+        "director": "Andrey Konchalovskiy",
+        "cast": [
+            "Armand Assante",
+            "Greta Scacchi",
+            "Isabella Rossellini"
+        ],
+        "year": 1997,
+        "genre": [
+            "Adventure",
+            "Drama",
+            "Fantasy"
+        ],
+        "rating": 8.4
+    },
+    {
+        "title": "The Pianist",
+        "director": "Roman Polanski",
+        "cast": [
+            "Adrien Brody",
+            "Thomas Kretschmann",
+            "Emilia Fox"
+        ],
+        "year": 2002,
+        "genre": [
+            "History",
+            "Drama",
+            "War"
+        ],
+        "rating": 8.5
+    },
+    {
+        "title": "The Shawshank Redemption",
+        "director": "Frank Darabont",
+        "cast": [
+            "Tim Robbins",
+            "Morgan Freeman",
+            "Bob Gunton"
+        ],
+        "year": 1994,
+        "genre": [
+            "Drama"
+        ],
+        "rating": 9.3
+    },
+    {
+        "title": "The Shining",
+        "director": "Stanley Kubrick",
+        "cast": [
+            "Jack Nicholson",
+            "Shelley Duvall",
+            "Danny Lloyd"
+        ],
+        "year": 1980,
+        "genre": [
+            "Drama",
+            "Horror"
+        ],
+        "rating": 8.4
+    },
+    {
+        "title": "The Witch",
+        "director": "Robert Eggers",
+        "cast": [
+            "Anya Taylor-Joy",
+            "Kate Dickie",
+            "Wahab Chaudhry"
+        ],
+        "year": 2016,
+        "genre": [
+            "Horror"
+        ],
+        "rating": 6.9
+    },
+    {
+        "title": "The Young Karl Marx",
+        "director": "Raoul Peck",
+        "cast": [
+            "August Diehl",
+            "Stefan Konarske",
+            "Vicky Krieps"
+        ],
+        "year": 2017,
+        "genre": [
+            "Biography",
+            "Drama",
+            "History"
+        ],
+        "rating": 6.6
+    },
+    {
+        "title": "Tramps",
+        "director": "Adam Leon",
+        "cast": [
+            "Callum Turner",
+            "Grace Van Patten",
+            "Mike Birbiglia"
+        ],
+        "year": 2016,
+        "genre": [
+            "Romantic",
+            "Comedy",
+            "Thriller"
+        ],
+        "rating": 6.5
+    },
+    {
+        "title": "Transformers: Dark of the Moon",
+        "director": "Michael Bay",
+        "cast": [
+            "Shia LaBeouf",
+            "Rosie Huntington-Whiteley",
+            "Tyrese Gibson"
+        ],
+        "year": 2011,
+        "genre": [
+            "Action",
+            "Adventure",
+            "Sci-Fi"
+        ],
+        "rating": 6.2
+    },
+    {
+        "title": "Upstream Color",
+        "director": "Shane Carruth",
+        "cast": [
+            "Amy Seimetz",
+            "Shane Carruth",
+            "Andrew Sensenig"
+        ],
+        "year": 2013,
+        "genre": [
+            "Sci-Fi",
+            "Drama"
+        ],
+        "rating": 6.5
+    },
+    {
+        "title": "Whiplash",
+        "director": "Damien Chazelle",
+        "cast": [
+            "Miles Teller",
+            "J.K. Simmons",
+            "Melissa Benoist"
+        ],
+        "year": 2014,
+        "genre": [
+            "Drama",
+            "Music"
+        ],
+        "rating": 8.5
+    }
+]
