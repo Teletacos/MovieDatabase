@@ -19,7 +19,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-items: start;
 
     background-color: transparent;
     width: 1275px;
@@ -44,28 +44,27 @@
 }
 
 .search-container {
+    width: 800px;
+}
+
+.search-box {
     display: flex;
     flex-direction: row;
     justify-content: start;
     align-items: center;
-
-    padding: 0;
     background-color: rgb(253, 253, 253);
-
     border-radius: 10px;
     transition-duration: 0.3s;
 }
 
-.search-container:focus-within{
-    box-shadow: 0 0px 20px rgba(255, 226, 36, 10.9);
+.search-box:focus-within{
+    box-shadow: 0 0px 20px var(--accent-glow-color);
 }
 
 .search-input {
     font-size: 16px;
     height: 35px;
-    width: 700px;
-    margin: 0;
-    border-width: 0;
+    flex: 1;
     border-radius: 10px;
     padding-left: 10px;
     outline: none;
@@ -83,4 +82,84 @@
 .search-button-icon {
     width: 100%;
     height: 100%;
+}
+
+.tags-button {
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    padding: 7px;
+    background-color: transparent;
+}
+
+.tags-button-icon {
+    width: 100%;
+    height: 100%;
+}
+
+.tags-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    flex-wrap: wrap;
+    margin-top: 10px;
+
+}
+
+.tag {
+    display: flex;
+    align-items: center;
+
+    padding: 6px 10px 6px 10px;
+    font-size: 14px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 20px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    text-decoration: none;
+    transition-duration: 0.3s;
+}
+
+.tag-delete-icon {
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+}
+
+.tag:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0px 15px var(--accent-glow-color);
+}
+
+.tag:active {
+    transform: scale(0.95);
+}
+
+.add-tag {
+    text-align: center;
+    width: 75px;
+    padding: 6px 10px 6px 10px;
+    font-size: 14px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 20px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    transition-duration: 0.3s;
+    outline: none;
+}
+
+.add-tag:focus {
+    transform: scale(1.05);
+    box-shadow: 0 0px 15px var(--accent-glow-color);
+}
+
+
+.add-tag::placeholder {
+    color: white;
 }

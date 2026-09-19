@@ -40,7 +40,7 @@
 
 .movie-container:hover {
     transform: scale(1.05);
-    box-shadow: 0 0px 20px rgba(255, 226, 36, 0.76);
+    box-shadow: 0 0px 20px var(--accent-glow-color);
 }
 
 .movie-container:active {

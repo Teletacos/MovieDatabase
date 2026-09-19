@@ -14,6 +14,8 @@ def main():
     @app.route("/")
     def index():
         movies = movieConverter.load_movies()
+        for tag in request.args.get("tags"):
+            print(tag)
         search = request.args.get("search")
         movies = movieSelector.select(movies, search=search)
         return render_template("index.html", current_view="Explore", movies=movies)
