@@ -6,6 +6,8 @@
         <link rel="stylesheet" href="{{ url_for('static', filename='css/general.css') }}">
         <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
         <link rel="stylesheet" href="{{ url_for('static', filename='css/header.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/filter.css') }}">
+
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,45 +23,71 @@
                 </div>
                 <div class="header-middle">
                     <div class="search-container">
-                        <form class="search-box">
-                            <input class="search-input" type="search" placeholder="Search" name="search">
+                        <form action="/" class="search-box" id="search-form">
+                            <input value="{{selected_search}}" class="search-input" type="search" placeholder="Search" name="search">
                             <button class="search-button" type="submit">
                                 <img class="search-button-icon" src="{{ url_for('static', filename='images/icons/search.svg') }}">
                             </button>
-                            <button class="tags-button" type="button">
-                                <img class="tags-button-icon" src="{{ url_for('static', filename='images/icons/filter.svg') }}">
-
-                            </button>
                         </form>
-                        <div class="tags-container">
-                            {% for i in range(4) %}
-                                <button class="tag">Tag {{i}} <img class="tag-delete-icon" src="{{ url_for('static', filename='images/icons/delete.svg') }}"></button>
-                            {% endfor %}
-
-                            <input class="add-tag" type="search" placeholder="Add tag">
-                        </div>
                     </div>
                 </div>
                 <div class="header-end"></div>
             </div>
         </div>
-        
+
         <div class="page-container">
-            <p class="current-view">{{current_view}}</p>      
-            <div class="movie-grid">
-                {% for movie in movies %}
-                    <a class="movie-link" href="/movie/{{movie.title}}">
-                        <div class="movie-container">
-                        <img class="movie-image" src="{{ url_for('static', filename=movie.image_path) }}">
-                        <p class="movie-rating">
-                            <img class="movie-rating-icon" src="{{ url_for('static', filename='images/icons/star.svg') }}">
-                            {{movie.rating}}
-                        </p>
-                        <p class="movie-title">{{movie.title}}</p>
+            <div class="page-start">
+                <div class="filter-container">
+                    <div class="filter-title">Filtering</div>
+                    <div class="tags-container">
+                        <button form="search-form" type="submit" class="filter-submit-button">Search</button>
+                        <div class="sort-container">
+                            <p class="sort-label">Sort mode: </p>
+                            <select form="search-form" class="sort-select" name="sort-mode">
+                                {% for sort_mode in sort_modes %}
+                                    {% if selected_sort == sort_mode %}
+                                        <option value="{{sort_mode}}" selected>{{sort_mode}}</option>
+                                    {% else %}
+                                        <option value="{{sort_mode}}">{{sort_mode}}</option>
+                                    {% endif %}
+                                {% endfor %}
+                            </select>
+                        </div>
+                        {% for genre in genres %}
+                            {% if genre in selected_genres %}
+                                <div class="tag">
+                                    <input checked form="search-form" type="checkbox" class="tag-check" name="{{genre}}">
+                                    {{genre}}
+                                </div>
+                            {% else %}
+                                <div class="tag">
+                                    <input form="search-form" type="checkbox" class="tag-check" name="{{genre}}">
+                                    {{genre}}
+                                </div>
+                            {% endif %}
+                        {% endfor %}
                     </div>
-                    </a>
-                {% endfor %}
+                </div>
             </div>
+            <div class="page-center"> 
+                <div class="movie-grid">
+                    {% for movie in movies %}
+                        <a class="movie-link" href="/movie/{{movie.title}}">
+                            <div class="movie-container">
+                            <img class="movie-image" src="{{ url_for('static', filename=movie.image_path) }}">
+                            <p class="movie-rating">
+                                <img class="movie-rating-icon" src="{{ url_for('static', filename='images/icons/star.svg') }}">
+                                {{movie.rating}}
+                            </p>
+                            <p class="movie-title">{{movie.title}}</p>
+                        </div>
+                        </a>
+	                {% endfor %}
+                </div>     
+            </div>
+            <div class="page-end">
+                
+            </div>  
         </div>  
     </body>
 </html>

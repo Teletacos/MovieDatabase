@@ -20,7 +20,9 @@
 }
 
 .movie-image {
+    height: 600px;
     width: 400px;
+    object-fit: cover;
     background-image: "{{ url_for('static', filename=movie.image_path)}}";
     margin-right: 30px;
     border-radius: 20px;

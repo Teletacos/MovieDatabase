@@ -14,24 +14,30 @@ def main():
     @app.route("/")
     def index():
         movies = movieConverter.load_movies()
-        for tag in request.args.get("tags"):
-            print(tag)
-        search = request.args.get("search")
-        movies = movieSelector.select(movies, search=search)
-        return render_template("index.html", current_view="Explore", movies=movies)
+        genres = movieSelector.get_all_genres(movies)
+        selected_search = request.args.get("search") or ""
+        selected_sort = request.args.get("sort-mode")
+        selected_genres = []
+        for genre, value in request.args.items():
+            if value == "on":
+                selected_genres.append(genre)
+        selected_movies = movieSelector.select(movies, search=selected_search, genres=selected_genres)
+        selected_movies = movieSelector.sort(selected_movies, selected_sort)
+        return render_template(
+            "index.html", 
+            movies=selected_movies, 
+            genres=genres, 
+            sort_modes=["Title Ascending", "Title Descending", "Year Ascending", "Year Descending", "Rating Ascending", "Rating Descending"], 
+            selected_search=selected_search, 
+            selected_genres=selected_genres, 
+            selected_sort=selected_sort
+        )
 
     @app.route("/movie/<title>")
     def movie(title):
         movies = movieConverter.load_movies()
         movie = movieSelector.select(movies, title=title)
         return render_template("movie.html", movie=movie)
-
-    @app.route("/genre/<genre>")
-    def genre(genre):
-        movies = movieConverter.load_movies()
-        search = request.args.get("search")
-        movies = movieSelector.select(movies, genre=genre, search=search)
-        return render_template("index.html", current_view=genre, movies=movies)
 
     app.run(port=80)
 

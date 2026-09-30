@@ -14,20 +14,22 @@
     <body>
         <div class="header">
             <div class="header-content">
-            <div class="header-start">
-                <a class="imdb-link" href="/">
-                    <img class="imdb-button-image" src="{{ url_for('static', filename='images/wmdb.png') }}"> 
-                </a>
-            </div>
-            <div class="header-middle">
-                <div class="search-container">
-                    <input class="search-input" type="search" placeholder="Search">
-                    <button class="search-button">
-                        <img class="search-button-icon" src="{{ url_for('static', filename='images/icons/search.svg') }}">
-                    </button>
+                <div class="header-start">
+                    <a class="imdb-link" href="/">
+                        <img class="imdb-button-image" src="{{ url_for('static', filename='images/wmdb.png') }}"> 
+                    </a>
                 </div>
-            </div>
-            <div class="header-end"></div>
+                <div class="header-middle">
+                    <div class="search-container">
+                        <form action="/" class="search-box">
+                            <input class="search-input" type="search" placeholder="Search" name="search">
+                            <button class="search-button" type="submit">
+                                <img class="search-button-icon" src="{{ url_for('static', filename='images/icons/search.svg') }}">
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                <div class="header-end"></div>
             </div>
         </div>
 
@@ -47,7 +49,7 @@
                     <div class="info-container">
                         <p class="role">Genre</p>
                         {% for genre in movie.genre %}
-                            <a href="/genre/{{genre}}" class="genre">{{genre}}</a>
+                            <a href="/?{{genre}}=on" class="genre">{{genre}}</a>
                         {% endfor %}
                     </div>
                     <div class="info-container">
